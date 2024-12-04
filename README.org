@@ -6,9 +6,18 @@
 
 This repo is setup to facilitate a "learn-as-you-type" journey thru Mike Zamansky's (60+? entries to date) series on learning, configuring, and working with Emacs.
 
-Still thinking about how to structure the files and commits. More later.
+Still thinking about how to structure the files and commits. More as I go...
 
-To start:
+* Github
+
+#+begin_src shell
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tsyroid/emacs-zamansky.git
+git push -u origin main
+#+end_src
 
 * Changelog
 ** Lesson 1: 
