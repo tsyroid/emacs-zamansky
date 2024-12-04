@@ -1,0 +1,14 @@
+#+TITLE: README.org
+#+AUTHOR: Taz Syroid (TS)
+#+DATE: [2024-12-04 Wed]
+
+* About this Repo...
+
+This repo is setup to facilitate a "learn-as-you-type" journey thru Mike Zamansky's (60+? entries to date) series on learning, configuring, and working with Emacs.
+
+Still thinking about how to structure the files and commits. More later.
+
+To start:
+
+* Changelog
+** Lesson 1: 
