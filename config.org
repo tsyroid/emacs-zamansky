@@ -1,0 +1,28 @@
+#+TITLE: Learning Emacs (Zamansky Series)
+#+AUTHOR: Taz Syroid (TZ)
+#+DATE: [2024-12-04 Wed]
+#+DESCRIPTION: Build and learn Emacs utilizing literate programming.
+#+PROPERTY: header-args :tangle config.el
+#+OPTIONS: toc:2
+
+* Learning Emacs (Zamansky Series)
+
+Intro here
+
+** TABLE-OF-CONTENTS :toc:
+
+** PREFACE (Babel-tangling this file)
+
+<Explanation and setup here>
+
+#+begin_src emacs-lisp
+#+PROPERTY: header-args :tangle config.el
+#+end_src
+
+* LESSON-1: Install a package manager
+
+** SRC: `init.el`
+
+#+begin_src
+
+#+end_src
