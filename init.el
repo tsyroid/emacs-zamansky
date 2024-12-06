@@ -1,18 +1,12 @@
 ;; 2024-12-04 Zamansky LESSON-X
 ;; ~/.emacs.d/init.el
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages '(org-bullets which-key try)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+;; START MYSTUFF
+;; Move customizations to a separate file & location (daviwil)
+(setq custom-file (locate-user-emacs-file "custom.el"))
+(load custom-file :no-error-if-file-is-missing)
+(setq make-backup-files nil)
+;; END MYSTUFF
 
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
@@ -41,3 +35,17 @@
   :ensure t
   :config
   (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+
+;; Ido-mode
+(setq indo-enable-flex-matching t)
+(setq ido-everywhere t)
+(ido-mode 1)
+
+(defalias 'list-buffers 'ibuffer)
+;; (defalias 'list-buffers 'ibuffer-other-window)
+
+;; ;; If you're interested in tab functionality
+;; (use-package tabbar
+;;   :ensure t
+;;   :config
+;;   (tabbar-mode 1))
