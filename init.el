@@ -1,4 +1,4 @@
-;; 2024-12-04 Zamansky LESSON1
+;; 2024-12-04 Zamansky LESSON-X
 ;; ~/.emacs.d/init.el
 
 (custom-set-variables
@@ -15,7 +15,7 @@
  )
 
 (setq inhibit-startup-message t)
-
+(tool-bar-mode -1)
 
 (require 'package)
 (setq package-enable-at-startup nil)
