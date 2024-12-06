@@ -39,7 +39,7 @@
 ;; Ido-mode
 (setq indo-enable-flex-matching t)
 (setq ido-everywhere t)
-(ido-mode 1)
+;; (ido-mode 1)
 
 (defalias 'list-buffers 'ibuffer)
 ;; (defalias 'list-buffers 'ibuffer-other-window)
@@ -49,3 +49,10 @@
 ;;   :ensure t
 ;;   :config
 ;;   (tabbar-mode 1))
+
+(use-package ace-window
+  :ensure t
+  :init
+  (progn
+    (global-set-key [remap other-window] 'ace-window)
+    ))
