@@ -1,6 +1,7 @@
 #+TITLE: README.org
 #+AUTHOR: Taz Syroid (TS)
 #+DATE: [2024-12-04 Wed]
+#+STARTUP: showall hidestars
 
 * About this Repo...
 
@@ -9,7 +10,6 @@ This repo is setup to facilitate a "learn-as-you-type" journey thru Mike Zamansk
 Still thinking about how to structure the files and commits. More as I go...
 
 * Github
-
 #+begin_src shell
 git init
 git add README.md
@@ -20,4 +20,17 @@ git push -u origin main
 #+end_src
 
 * Changelog
-** Lesson 1: 
+** Lesson 1: Introducing the series and setting up te package manager
+*** Show =melpa=
+*** Setup =melpa=
+*** Installed =use-package=
+*** Installed =try=
+*** Installed =which-key=
+** Lesson 2: Introducing Org
+*** Review =init.el=
+*** Setup =README.org=
+
+>>> REST LATER <<<
+
+** Links
+*** [[https/cestlaz.github.io/][Here's Mike's Blog]]
